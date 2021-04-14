@@ -5,7 +5,7 @@
 ### Important links
 - [GitHup repo](https://github.com/boodah96/auth-api)
 - [GitHup Actions](https://github.com/boodah96/auth-api/actions)
-- [Heroku]()
+- [Heroku](https://auth-api-boodah96.herokuapp.com/)
 
 #### Start work on this app with these commands:
 
