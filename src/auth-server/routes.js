@@ -34,7 +34,7 @@ authRouter.post('/signin', basicAuth, (req, res, next) => {
     }
 
 });
-
+// with permission
 authRouter.get('/users', bearerAuth, permissions('delete'), async(req, res, next) => {
     try {
         const users = await User.find({});
@@ -45,7 +45,7 @@ authRouter.get('/users', bearerAuth, permissions('delete'), async(req, res, next
     }
 
 });
-
+// without permission
 authRouter.get('/secret', bearerAuth, async(req, res, next) => {
     try {
         res.status(200).send('Welcome to the secret area')
