@@ -14,7 +14,7 @@
 
 - `npm init -y`
 
-- `npm i express dotenv morgan base-64 bcrypt cors mongoose`
+- `npm i express dotenv jsonwebtoken morgan base-64 bcrypt cors mongoose`
 
 - to **test** follow these command:
 
